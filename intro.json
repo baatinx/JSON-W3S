@@ -1,0 +1,5 @@
+{
+    "_comment1": "JSON does not support comments",
+    "__comment2__": "But we can do something like this to Fix this issue, pretty cool!",
+    "__see__": "https://www.crockford.com/jsmin.html"
+}
