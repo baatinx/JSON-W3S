@@ -3,3 +3,15 @@
 }
 
 [ "Square", "brackets", "hold", "arrays" ]
+
+{
+    "name": "basit",
+    "age": 23,
+    "interest": ["Clojure", "Scala", "Elxir", "Haskell"],
+    "address": {
+        "street": "ABC",
+        "city": "Srinagar",
+        "pin-code": 190009
+    }
+    "contact": 7006700670
+}
