@@ -1,0 +1,21 @@
+1. The JSON syntax is a subset of the JavaScript syntax.
+
+2. In JSON, keys must be strings, written with double quotes:
+
+3. JSON syntax is derived from JavaScript object notation syntax:
+    - Data is in name/value pairs
+    - Data is separated by commas
+    - Curly braces hold objects
+    - Square brackets hold arrays
+
+4. In JSON, values must be one of the following data types:
+    - a string
+    - a number
+    - an object (JSON object)
+    - an array
+    - a boolean
+    - null
+
+5. In JSON, string values must be written with double quotes
+
+6.  
