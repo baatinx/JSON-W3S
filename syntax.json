@@ -8,10 +8,22 @@
     "name": "basit",
     "age": 23,
     "interest": ["Clojure", "Scala", "Elxir", "Haskell"],
+    "D.O.B": "21-09-1995", 
     "address": {
         "street": "ABC",
         "city": "Srinagar",
         "pin-code": 190009
-    }
-    "contact": 7006700670
+    },
+    "contact": 7006700670,
+    "married": false,
+    "height": null
 }
+
+{
+    "employee": [
+        {"first-name": "Mustafa", "last-name": "Basit"},
+        {"first-name": "Zakir", "last-name": "Gulzar"},
+        {"first-name": "Seerat", "last-name": "Gul"}
+    ]
+}
+

@@ -18,4 +18,14 @@
 
 5. In JSON, string values must be written with double quotes
 
-6.  
+6. For AJAX applications, JSON is faster and easier than XML 
+
+7. JSON values cannot be one of the following data types:
+    - a function
+    - a date
+    - undefined
+
+8. When using the JSON.parse() on a JSON derived from an array, the method will return a JavaScript array,
+   instead of a JavaScript object.
+
+9. 
