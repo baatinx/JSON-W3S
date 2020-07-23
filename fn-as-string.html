@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="foo();">Get Details</button>
+</body>
+<script>
+     var textFromWebServer = '{ "item": "laptop", "price": "function(){ return 25000 }" }';
+     var demo = document.getElementById('demo');
+
+    function foo(){
+        var obj = JSON.parse(textFromWebServer, function(key, val){ return (key == "price") ? eval("(" + val + ")") : val });
+        
+        demo.innerHTML = "Item: " + obj.item + "<br>Price: " + obj.price();
+        // notice-------------------------------------------------.price()
+ }
+</script>
+</html>

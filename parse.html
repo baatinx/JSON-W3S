@@ -14,8 +14,7 @@
     var demo = document.getElementById('demo');
 
     function foo(){
-        var obj = JSON.parse(textFromWebServer);
-        obj.birth = new Date(obj.birth);
+        var obj = JSON.parse(textFromWebServer, function(key, val){ return (key === "birth") ?  new Date(val) : val; }); 
         demo.innerHTML = "Name: " + obj.name + "<br>Age: " + obj.age + "<br>Interests: " + obj.interests.join(", ") + "<br>D.O.B: " + obj.birth;
     }
 </script>

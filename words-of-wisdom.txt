@@ -28,4 +28,10 @@
 8. When using the JSON.parse() on a JSON derived from an array, the method will return a JavaScript array,
    instead of a JavaScript object.
 
-9. 
+9. Date objects are not allowed in JSON.If you need to include a date, write it as a string.
+
+10. You can use the second parameter, of the JSON.parse() function, called reviver.
+
+11. Functions are not allowed in JSON. If you need to include a function, write it as a string.
+
+12. JSONP is a method for sending JSON data without worrying about cross-domain issues.
